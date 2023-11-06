@@ -21,7 +21,7 @@
     font-family: 'GothamMedium', sans-serif ;
     list-style: none;
     text-decoration: none;
-    color: var(--white);
+    color: var(--white) !important;
 }
 :root{
     --verde: #3a9842;
@@ -32,7 +32,13 @@
 }
 p{
     margin-bottom: 0;
+    font-size: 18px;
+    font-family: 'GothamMedium';
  }
+h1{
+    font-family: 'Gotham-Bold';
+    font-size: 50px;
+}
 main{
     background-color: var(--fundo);
 }

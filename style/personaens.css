@@ -21,7 +21,8 @@
     font-family: 'GothamMedium', sans-serif ;
     list-style: none;
     text-decoration: none;
-    color: var(--white);
+    color: var(--white) !important;
+
 }
 :root{
     --verde: #3a9842;
@@ -29,6 +30,7 @@
     --white: #fff;
     --fundo: #292D32;
     --red: #EA2840;
+
 }
 p{
     margin-bottom: 0;
@@ -99,6 +101,10 @@ body{
     position: relative;
 }
 .card-txt h2{
+    font-family: 'Gotham-Bold';
+    font-size: 20px;
+}
+h1{
     font-family: 'Gotham-Bold';
     font-size: 20px;
 }
